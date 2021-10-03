@@ -1,0 +1,82 @@
+body.dark-mode {
+	background-color: #222222;
+	color           : #DEE4E7;
+	font-family     : 'Poppins', sans-serif;
+	padding         : 5px;
+}
+
+body.light-mode {
+	background-color: #DEE4E7;
+	color           : #222222;
+	font-family     : 'Poppins', sans-serif;
+	padding         : 5px;
+}
+
+.toggle {
+	font-size: 40px;
+	position : fixed;
+	right    : 260px;
+	top      : 20px;
+}
+
+.toggle:before {
+	content: url("https://vinocrazy.com/images/svg/sun.svg");
+	width  : 30px;
+	height : 30px;
+	display: block;
+}
+
+.toggle.active:before {
+	content: url("https://vinocrazy.com/images/svg/half-moon.svg");
+}
+
+.toggle.animate {
+	animation: toggleAnimate 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (max-width:1122px) {
+	header .toggle {
+		right: 22px;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	header .toggle {
+		right: 50px;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	header .toggle {
+		right: 20px;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	header .toggle {
+		right: 25px;
+	}
+}
+
+* {
+	cursor: url(images/cursor/cur1165.ani), url(images/cursor/cur1165.png), auto !important;
+}
+
+a {
+	cursor: pointer !important
+}
+
+
+@keyframes toggleAnimate {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}

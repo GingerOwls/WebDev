@@ -1,71 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <style>
-    body {
-      background-color: #52e0d8;
-    }
-    </style>
-    <title>Care To Share?</title>
-  </head>
 
-<body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Care To Share?</title>
+
+  <script>
+    function toggleDarkLight() {
+      var body = document.getElementById("body");
+      var toggleElement = document.getElementsByClassName("toggle")[0];
+      toggleElement.classList.toggle('active');
+      var currentClass = body.className;
+      body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+    }
+  </script>
+</head>
+
+<body id="body" class="light-mode">
   <header>
-    <h1 style="text-align:center;" >
-      Care To Share?</h1>
+
+    <span class="toggle" onclick="toggleDarkLight()"></span>
+
+    <center>
+      <h1>Care To Share?</h1>
+    </center>
+
     <h2 style="text-align:center;">This project is meant for sharing and caring!</h2>
     <div class="description">
       <p style="text-align:center;">
-        Hello Contributors! As the name suggest we ask you to share your resources which helped get you better in developing and coding. </p>
-        <p style="text-align:center;">  We are a big family here and every help counts!</p>
-        <p style="text-align:center;">Share To Care</p>
-
-</body>
-
-<!-- ============== TEMPLATE ============== -->
-<!-- COPY everything BELOW this, from contributor suggest start to end along with the "START" and "END" comment lines -->
-
-<!-- ________ Contributor's Suggest START ________  -->
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Enter Your Name:</p>
-
-<p class="about">
-  Your interests and hobbies:
-</p>
-<div class="resources">
-  <p>Resources you want to share:</p>
-  <ul>
-    <li>
-      <a href="#" target="_blank" title="Suggest 1">
-        * Suggest 1
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_blank" title="Suggest 2">
-        * Suggest 2
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_blank" title="Suggest 3">
-        * Suggest 3
-      </a>
-    </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  -->
+        Hello Contributors! As the name suggest we ask you to share your review of resources which helped get you better
+        in developing and coding. </p>
+      <p style="text-align:center;"> We are a big family here and your opinion counts!</p>
+      <p style="text-align:center;">Share Your Opinion!</p>
 
 
-<!-- COPY everything ABOVE this, from contributor suggest start to end along with the "START" and "END" comment lines -->
-<!-- ============== ^^^^ TEMPLATE ^^^^ ============== -->
 
-<!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
+      <!-- ============== TEMPLATE ============== -->
+      <!-- COPY everything BELOW this, from contributor suggest start to end along with the "START" and "END" comment lines -->
 
-<!-- make sure there is one line of space above and below your card -->
-<!-- ========== Paste YOUR CARD directly at the end of this HTML document ========== -->
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Enter Your Name:</p>
+
+        <p class="about">
+          Your interests and hobbies:
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <p>Name of Resource</p>
+              <p>Write your Review Here</p>
+            </li>
+            <li>
+              <p>Name of Resource</p>
+              <p>Write your Review</p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+      <!-- COPY everything ABOVE this, from contributor suggest start to end along with the "START" and "END" comment lines -->
+      <!-- ============== ^^^^ TEMPLATE ^^^^ ============== -->
+      <!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
+      <!-- make sure there is one line of space above and below your card -->
+      <!-- ========== Paste YOUR Suggest directly at the end of this HTML document ========== -->
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Jeremy</p>
+
+        <p class="about">
+          Interests and Hobbies: Tech, programming and movies
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <a href="https://www.geeksforgeeks.org/" target="_blank" title="Suggest 1">
+                GeeksforGeeks.org
+              </a>
+              <p>
+                A great site for beginners and advanced developpers. There are solutions to almost any problem in any
+                programming language.
+                Their solutions are always clean, no-nonsense and have examples.
+                This one of the best tool a programmer can use, and it's free !
+              </p>
+            </li>
+            <li>
+              <a href="https://medium.com/better-programming/" target="_blank" title="Suggest 2">
+                better-programming
+              </a>
+              <p>
+                A nice blog with general-purpose and technical articles about programming.
+                They sum it up pretty simply : "Adviced for programmers"
+              </p>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=jfxcJH_OWgE" target="_blank" title="Suggest 3">
+                Five things I wish i knew when I started programming
+              </a>
+              <p>
+                A nice video for beginners who wish to get some advices to begin their programming journey
+              </p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+
+      <!-- ________ Contributor's Suggest START ________  -->

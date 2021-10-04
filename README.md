@@ -22,9 +22,11 @@ These review can be of anything:
 Add these useful review and some basic information to the index.html !
 
 How to make a Pull Request?
+
 It is requested to provide your Pull Request with proper heading and also provide a description of changes made by you.
 
 How to get issue assigned?
+
 If you want to work on an issue please comment on the issue 😇 Once the issue is assigned to you , you can go ahead work on it and then create a PR. Issues with tag "EVERYONE" can be done by directly creating a PR and mentioning the issue number.
 
 Follow these simple steps:

@@ -1,12 +1,15 @@
+.heading{
+	font-size: 4vw;
+}
 body.dark-mode {
-	background-color: #222222;
+	background-color:#042f52;
 	color           : #DEE4E7;
 	font-family     : 'Poppins', sans-serif;
 	padding         : 5px;
 }
 
 body.light-mode {
-	background-color: #DEE4E7;
+	background-color: rgb(243, 241, 142,0.5);
 	color           : #222222;
 	font-family     : 'Poppins', sans-serif;
 	padding         : 5px;

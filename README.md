@@ -30,12 +30,21 @@ How to get issue assigned?
 If you want to work on an issue please comment on the issue 😇 Once the issue is assigned to you , you can go ahead work on it and then create a PR. Issues with tag "EVERYONE" can be done by directly creating a PR and mentioning the issue number.
 
 Follow these simple steps:
+
 1.Fork this repository.
+
 2.Clone the repository.
+
 3.Create A new branch.
+
 4.Open the index.html
+
 5.Copy the required and add information.
+
 6.Commit Changes.
+
 7.Push The changes
+
 8.Create the Pull Request!
+
 Wait for the request to be merged. Till then celebrate for contributing 🥳 🥳

@@ -48,3 +48,41 @@ Follow these simple steps:
 8.Create the Pull Request!
 
 Wait for the request to be merged. Till then celebrate for contributing 🥳 🥳
+
+WHAT IS HACKTOBERFEST?
+
+Hi there,
+
+Buckle up folks, Hacktoberfest is round the corner and registrations are now open. Hacktoberfest will be hosted by Digital Ocean for the 8th year in a row in partnership with GitHub and other companies, yes you read it right. In this article, I will share, what is hacktoberfest?
+
+Hacktoberfest is a month-long challenge. It happens every year in the month of October.
+
+Hacktoberfest is open to everyone and it marks the celebration of Open Source. It's the biggest Open Source event that encourages newbies to participate in Open Source and create their 1st meaningful PR(pull request).
+
+HOW DOES IT WORK?
+
+1. Maintainers determine if their open-source projects participate.
+2. Quality pull requests submitted on GitHub and GitLab are rewarded.
+3. Engaged maintenance of Hacktoberfest tagged repositories are rewarded.
+
+HOW CAN YOU JOIN?
+
+Step 1: Create a GitHub account, if you don't already have one.
+Step 2: Register for Hacktoberfest: Navigate to the Hacktoberfest registration page and follow the instructions. But, read the rules carefully before you do and then sign in using your GitHub credentials.
+Step 3: Find good projects worth contributing on the GitHub page. You can type label:hactoberfest is:issue is:open
+You can add a language label of your choice to filter open issues. If you are a beginner and can’t find good issues then there’s tag label:good first issue which filters out issues for beginners who want to contribute.
+Step 4: Submit PRs: Try and submit at least 4 PRs and wait for it to be verified. Make sure to submit quality PRs.
+
+WHEN CAN YOU JOIN?
+
+Registrations are now open but you can sign up anytime between October 1 and October 31 in any time zone. Just be sure to sign up on the official Hacktoberfest website for your pull requests to count.
+
+HOW TO EARN A SWAG KIT?
+
+For your PR to count it must be:
+
+Submitted in a public repo, AND the PR is labelled as hacktoberfest-accepted by a maintainer. or
+Submitted in a repo labelled 'hacktoberfest' , AND Merged, OR Approved
+Also,
+
+You can opt not to receive a t-shirt and stickers and you can choose to have a tree planted in your name and help make Hacktoberfest 2021 more carbon neutral.

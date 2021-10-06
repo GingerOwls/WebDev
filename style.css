@@ -1,85 +1,104 @@
-.heading{
-	font-size: 4vw;
-}
-body.dark-mode {
-	background-color:#042f52;
-	color           : #DEE4E7;
-	font-family     : 'Poppins', sans-serif;
-	padding         : 5px;
+.heading {
+  font-size: 4vw;
 }
 
-body.light-mode {
-	background-color: rgb(243, 241, 142,0.5);
-	color           : #222222;
-	font-family     : 'Poppins', sans-serif;
-	padding         : 5px;
+body {
+  background-color: rgb(243, 241, 142, 0.5);
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+}
+
+body.dark-mode {
+  background-color: #042f52;
+  color: #dee4e7;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
 }
 
 .toggle {
-	font-size: 40px;
-	position : fixed;
-	right    : 260px;
-	top      : 20px;
+  position: absolute;
+  top: 80px;
+  right: 150px;
 }
 
-.toggle:before {
-	content: url("https://vinocrazy.com/images/svg/sun.svg");
-	width  : 30px;
-	height : 30px;
-	display: block;
+.label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #1f1f1f;
+  height: 30px;
+  width: 55px;
+  border-radius: 50px;
+  cursor: pointer !important;
 }
 
-.toggle.active:before {
-	content: url("https://vinocrazy.com/images/svg/half-moon.svg");
+.fa-moon {
+  font-size: 20px;
+  color: silver;
+  position: absolute;
+  left: 5px;
+  cursor: pointer !important;
 }
 
-.toggle.animate {
-	animation: toggleAnimate 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+.fa-sun {
+  font-size: 18px;
+  color: rgb(255, 123, 0);
+  position: absolute;
+  right: 5px;
+  cursor: pointer !important;
 }
 
-@media only screen and (max-width:1122px) {
-	header .toggle {
-		right: 22px;
-	}
+.switch {
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+  cursor: pointer !important;
 }
 
-@media only screen and (max-width:768px) {
-	header .toggle {
-		right: 50px;
-	}
+.checkbox {
+  opacity: 0;
+  position: absolute;
 }
 
-@media only screen and (max-width:600px) {
-	header .toggle {
-		right: 20px;
-	}
+.checkbox:checked + .label .switch {
+  transform: translateX(25px);
 }
 
-@media only screen and (max-width:400px) {
-	header .toggle {
-		right: 25px;
-	}
+@media only screen and (max-width: 1122px) {
+  header .toggle {
+    position: relative;
+    top: 15px;
+    left: 50%;
+  }
+  .label {
+    transform: translateX(-50%);
+  }
 }
 
 * {
-	cursor: url(images/cursor/cur1165.ani), url(images/cursor/cur1165.png), auto !important;
+  cursor: url(images/cursor/cur1165.ani), url(images/cursor/cur1165.png), auto !important;
 }
 
 a {
-	cursor: pointer !important
+  cursor: pointer !important;
 }
 
-
 @keyframes toggleAnimate {
-	0% {
-		transform: scale(1);
-	}
+  0% {
+    transform: scale(1);
+  }
 
-	50% {
-		transform: scale(0);
-	}
+  50% {
+    transform: scale(0);
+  }
 
-	100% {
-		transform: scale(1);
-	}
+  100% {
+    transform: scale(1);
+  }
 }

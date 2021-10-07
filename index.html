@@ -5,23 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Care To Share?</title>
-
-    <script>
-      function toggleDarkLight() {
-        var body = document.getElementById("body");
-        var toggleElement = document.getElementsByClassName("toggle")[0];
-        toggleElement.classList.toggle("active");
-        var currentClass = body.className;
-        body.className =
-          currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-      }
-    </script>
   </head>
 
-  <body id="body" class="light-mode">
+  <body id="body">
     <header>
-      <span class="toggle" onclick="toggleDarkLight()"></span>
+      <div class="toggle">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="switch"></div>
+        </label>
+      </div>
 
       <center>
         <h1 class="heading">Care To Share?</h1>
@@ -241,9 +238,64 @@
             </p>
           </div>
         </div>
-
+        <div class="card">
+          <p>
+            __________________________________________________________________________________________________________________
+          </p>
+          <div class="card">
+            <p>
+              __________________________________________________________________________________________________________________
+            </p>
+            <p class="name">Garima Jain</p>
+  
+            <p class="about">Your interests and hobbies: Programming, Traveling and photography </p>
+            <div class="resources">
+              <p>Review of resources:</p>
+              <ul>
+                <li>
+                  <p>Pepcoding</p>
+                  <p>Write your Review Here</p>
+                </li>
+                <li>
+                  <a
+                  href="https://www.pepcoding.com/"
+                  target="_blank"
+                  title="Suggest 1"
+                >
+                  Pepcoding.com
+                </a>
+                <p>
+                  A great site for beginners and advanced developers. The explanation and questions
+                  of all the concepts are understable and they all are in java. 
+                  Perfect platform for your coding career and also it's free.
+                </p>
+              </li>
+              <li>
+                <a
+                  href="https://www.geeksforgeeks.org/"
+                  target="_blank"
+                  title="Suggest 2"
+                >
+                  geeksforgeeks.org
+                </a>
+                <p>
+                  A great site for beginners and advanced developpers. There are
+                  solutions to almost any problem in any programming language.
+                  This one of the best tool a programmer can use, and it's free !
+                ___________________________________________________________________________________________________________________
+              </p>
+            </div>
+          </div>
         <!-- ________ Contributor's Suggest END ________  -->
       </div>
     </header>
+    <script>
+      const checkbox = document.getElementById('checkbox');
+      const body = document.getElementById('body');
+      checkbox.addEventListener('change', () => {
+        body.classList.toggle('dark-mode');
+      })
+      
+  </script>
   </body>
 </html>

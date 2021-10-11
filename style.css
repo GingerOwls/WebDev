@@ -9,13 +9,12 @@ body {
   padding: 5px;
 }
 
-body.dark-mode {
-  background-color: #042f52;
+body.dark-mode{
+  background-color: #0567b8;
   color: #dee4e7;
   font-family: "Poppins", sans-serif;
   padding: 5px;
 }
-
 .toggle {
   position: absolute;
   top: 80px;
@@ -37,16 +36,14 @@ body.dark-mode {
   font-size: 20px;
   color: silver;
   position: absolute;
-  left: 5px;
-  cursor: pointer !important;
+  right: 5px;
 }
 
 .fa-sun {
   font-size: 18px;
   color: rgb(255, 123, 0);
   position: absolute;
-  right: 5px;
-  cursor: pointer !important;
+  left: 5px;
 }
 
 .switch {
@@ -58,7 +55,6 @@ body.dark-mode {
   left: 3px;
   border-radius: 50%;
   transition: all ease 0.3s;
-  cursor: pointer !important;
 }
 
 .checkbox {
@@ -69,7 +65,49 @@ body.dark-mode {
 .checkbox:checked + .label .switch {
   transform: translateX(25px);
 }
+hr {
+  width:75%;
+  height: 2px;
+  border: 0;
+  background: #333;
+  background-image: linear-gradient(to right, #f6f6f6, black, #f6f6f6);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+.card{
+  margin: 2rem;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons a{
+  font-size: 22px;
+  margin-right: 1rem;
+  text-decoration: none;
+  color:black ;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.icons a:hover{
+  transform: scale(1.1);
+  color: rgb(26, 26, 26);
+}
 
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: large;
+}
 @media only screen and (max-width: 1122px) {
   header .toggle {
     position: relative;

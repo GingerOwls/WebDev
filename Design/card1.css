@@ -1,0 +1,43 @@
+body{
+	background-color:#bb045b;
+}
+.card{
+	position:relative;
+	top:200px;
+	left:460px;
+	width:600px;
+	background: rgba( 255, 89, 185, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 6px );
+	-webkit-backdrop-filter: blur( 6px );
+	border-radius:30px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.profile{
+	border-radius:50px;
+	height:100px;
+	width: 100px;
+	background-color:white;
+	border:2px solid white;
+	position:relative;
+	top: 20px;
+	left:240px;
+}
+img{
+	height:100px;
+	width: 100px;
+	border-radius:50px;
+	position:relative;
+}
+h2{
+	color: ghostwhite;
+	position:relative;
+	top: 20px;
+	left:215px;
+}
+p{
+	text-align:center;
+	margin-top:50px;
+	color:white;
+	font-size:20px;
+}

@@ -1,0 +1,39 @@
+.card{
+	position:relative;
+	top:160px;
+	left:460px;
+	width:600px;
+	height:400px;
+	background-image: linear-gradient(to right bottom, #450119, #510023, #5c0030, #66003d, #6f004d, #7d0057, #8b0162, #9a026d, #b30072, #cd0075, #e60076, #ff0075);
+	border-radius:25px;
+}
+.shape{
+	background-color:#ff67be;
+	height: 200px;
+	width: 200px;
+	clip-path: circle(50% at 50% 50%);
+	/*position:relative;
+	top:10px;
+	left:320px;*/
+}
+.circle{
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	position:relative;
+	top:10px;
+	left:320px;
+	border: 4px solid white;
+}
+h1{
+	position:relative;
+	top:50px;
+	left: 20px;
+	color:lavender;
+}
+p{
+	position: relative;
+	top: 90px;
+	left: 10px;
+	color: ghostwhite;
+}

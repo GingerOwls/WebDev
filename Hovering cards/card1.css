@@ -13,7 +13,7 @@ body{
 
 .card-heading{
     font-size: 7rem;
-    margin:5rem 0;
+    margin:2rem 0 2rem 0;
     text-align: center;
 }
 
@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .fall-link{

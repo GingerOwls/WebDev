@@ -3,22 +3,47 @@
 }
 
 body {
-  background-color: rgb(243, 241, 142, 0.5);
+  background-color: rgb(255, 216, 110);
   color: #222222;
   font-family: "Poppins", sans-serif;
   padding: 5px;
 }
 
+h1{
+  color:#e02d00;
+  text-shadow: 0.1rem 0.1rem 0.1rem #000;
+}
+
 body.dark-mode{
-  background-color: #0567b8;
-  color: #dee4e7;
+  background-color: #333;
+  color: #ececec;
   font-family: "Poppins", sans-serif;
   padding: 5px;
 }
+
 .toggle {
   position: absolute;
   top: 80px;
   right: 150px;
+}
+
+body.dark-mode h1{
+  color:burlywood;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(0, 130, 216);
+}
+
+a:visited{
+  text-decoration: none;
+  color:rgb(0, 167, 42);
+}
+
+a:hover{
+  text-decoration: none;
+  color:rgb(131, 20, 235);
 }
 
 .label {
@@ -41,7 +66,7 @@ body.dark-mode{
 
 .fa-sun {
   font-size: 18px;
-  color: rgb(255, 123, 0);
+  color: rgb(255, 196, 0);
   position: absolute;
   left: 5px;
 }
@@ -79,6 +104,8 @@ hr {
   align-items: center;
   justify-content: center;
   font-size: x-large;
+  font-size:2rem;
+  font-weight: 700;
 }
 .card{
   margin: 2rem;
@@ -88,14 +115,25 @@ hr {
   align-items: center;
   justify-content: center;
 }
+
+body.dark-mode .icons a{
+  font-size: 22px;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #f6f6f6 ;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
 .icons a{
   font-size: 22px;
   margin-right: 1rem;
   text-decoration: none;
-  color:black ;
+  color: #1b1b1b ;
   margin-bottom: 4px;
   cursor: pointer;
 }
+
 .icons a:hover{
   transform: scale(1.1);
   color: rgb(26, 26, 26);
